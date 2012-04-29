@@ -18,7 +18,10 @@ namespace WindowsMobileUtils.Demo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1.Text = ConfigurationHelper.Instance.Settings["Hello"];
+            label1.Text = ConfigurationHelper.Instance.Get("Hello");
+
+            ConfigurationHelper.Instance.Add("New", "Key");
+            ConfigurationHelper.Instance.Save();
         }
     }
 }
