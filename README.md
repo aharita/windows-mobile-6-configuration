@@ -1,13 +1,11 @@
-Windows Mobile 6 Utils
+Windows Mobile 6 Configuration Helper
 ======================
 
-The purpose of this library is to provide helper classes that you can use to ease your
-development on the Windows Mobile 6 platform.
+The purpose of this library is to provide a configuration helper classes that you can use to ease your development on the Windows Mobile 6 platform.
 
 ConfigurationHelper.cs
 ----------------------
-Windows Mobile does not support application configuration out of the box. In this library
-you will find a light and easy to use configuration setup. You just need to add a Configuration.xml file as follows:
+Windows Mobile does not support application configuration out of the box. In this library you will find a light and easy to use configuration setup. You just need to add a Configuration.xml file as follows:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -44,11 +42,4 @@ ConfigurationHelper.Instance.Save();
 
 DirectoryHelper.cs
 ------------------
-This class contains a useful property that helps you determine the current application folder
-
-TODO:
------
-
-- ImageConverterHelper
-- XmlSerializationHelper
-- LoggingHelper
+This class contains a useful property that helps you determine the current application folder, used by the configuration helper class
