@@ -33,7 +33,8 @@ namespace WindowsMobileUtils
 
         #endregion
 
-        #region
+        #region Methods
+
         public void Add(string key, string value)
         {
             if (_settings.ContainsKey(key))
@@ -86,6 +87,7 @@ namespace WindowsMobileUtils
 
             doc.Save(this.ConfigurationFile);
         }
+
         #endregion
     }
 }
