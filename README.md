@@ -1,7 +1,7 @@
 Windows Mobile 6 Configuration Helper
 ======================
 
-The purpose of this library is to provide a configuration helper classes that you can use to ease your development on the Windows Mobile 6 platform. 
+The purpose of this library is to provide a configuration helper classes that you can use to ease your development on the Windows Mobile 6 platform.
 
 ConfigurationHelper.cs
 ----------------------
